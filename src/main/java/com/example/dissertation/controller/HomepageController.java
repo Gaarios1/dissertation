@@ -128,7 +128,7 @@ import java.util.List;
             Credential cred = flow.loadCredential(USER_IDENTIFIER_KEY);
 
             Drive drive = new Drive.Builder(HTTP_TRANSPORT, JSON_FACTORY, cred)
-                    .setApplicationName("googledrivespringbootexample").build();
+                    .setApplicationName("dissertation").build();
 
             File file = new File();
             file.setName("digit.jpg");
@@ -168,7 +168,7 @@ import java.util.List;
             Credential cred = flow.loadCredential(USER_IDENTIFIER_KEY);
 
             Drive drive = new Drive.Builder(HTTP_TRANSPORT, JSON_FACTORY, cred)
-                    .setApplicationName("googledrivespringbootexample").build();
+                    .setApplicationName("dissertation").build();
 
             Permission permission = new Permission();
             permission.setType("anyone");
@@ -186,7 +186,7 @@ import java.util.List;
             Credential cred = flow.loadCredential(USER_IDENTIFIER_KEY);
 
             Drive drive = new Drive.Builder(HTTP_TRANSPORT, JSON_FACTORY, cred)
-                    .setApplicationName("googledrivespringbootexample").build();
+                    .setApplicationName("dissertation").build();
 
             drive.files().delete(fileId).execute();
 
